@@ -1,0 +1,163 @@
+---
+main:
+   - name: 2021
+     ref: "/2021"
+     sub:
+       - name: A look into Azure Private Express Route
+         ref: "/2021/2021-02-17-a-look-into-azure-express-route"
+       - name: Juniper MX204 Trio ASIC, 100G  and breakout ports
+         ref: "/2021/2021-02-24-juniper-mx204-asic-100g-and-breakout-ports"
+       - name: Azure NSG - effective rules and conflicting subnet / NIC rules
+         ref: "/2021/2021-03-08-azure-nsg-effective-rules-conflicting-subnet-nic-rules"
+       - name: Azure load balancers, application gateways and backend servers in different VNETs
+         ref: "/2021/2021-03-10-azure-lb-load-balancers-backend-server-different-vnet"
+       - name: Azure Bastion
+         ref: "/2021/2021-03-16-azure-bastion"
+       - name: Azure - Hub and spoke, VNET peering, UDRs, VNG and Azure Firewall
+         ref: "/2021/2021-03-22-azure-hub-spoke-routing-peering-firewall"
+       - name: Azure Firewall, policies, forced tunneling and managers
+         ref: "/2021/2021-03-24-azure-firewall-and-security-policies"
+       - name: Azure Service Endpoint, Private Endpoint and Private Link Access your favorite services differently
+         ref: "/2021/2021-03-28-azure-service-private-endpoints-private-links-networking"
+       - name: Azure Web App VNET integration networking
+         ref: "/2021/2021-04-05-azure-webapp-vnet-integration-networking"
+       - name: JunOS - Prefix leaking with auto-export 
+         ref: "/2021/2021-09-18-junos-prefix-leaking-with-auto-export"
+   - name: 2020
+     ref: "/2020"
+     sub:
+       - name: Cumulus Linux learning resources
+         ref: "/2020/2020-10-18-cumulus-linux-learning-resources"
+   - name: 2019
+     ref: "/2019"
+     sub:
+       - name: Juniper vMX router installation and troubleshooting in KVM
+         ref: "/2019/2019-11-19-vMX-router-installation-tips-pitfalls-kvm"
+       - name: Cumulus Linux VRF aware loopback interface
+         ref: "/2019/2019-12-15-cumulus-linux-vrf-aware-loopback-interface"
+       - name: QSFP to SFP adapters configuration and use with Cumulus Linux
+         ref: "/2019/2019-12-15-qsfp-to-sfp-adpater-configuration-and-use-cumulus"
+   - name: 2017
+     ref: "/2017"
+     sub:
+       - name: IOS XR Basic IS-IS and iBGP configuration
+         ref: "/2017/2017-06-24-ios-xr-basic-is-is-and-ibgp-configuration"
+       - name: VXLAN Flood and learn configuration on Nexus 9000
+         ref: "/2017/2017-09-10-vxlan-flood-and-learn-configuration-on-nexus-9000"
+       - name: BFD quick review
+         ref: "/2017/2017-11-16-bidirectionnal-forwarding-detection-quick-review"
+   - name: 2016
+     ref: "/2016"
+     sub:
+       - name: PIM-SSM configuration
+         ref: "/2016/2016-02-10-pim-ssm-configuration"
+       - name: IPv6, OSPFv3 and VRF-lite
+         ref: "/2016/2016-03-06-ipv6-ospfv3-and-vrf-lite"
+       - name: ISR4k IOS-XE Embedded Packet Capture
+         ref: "/2016/2016-03-17-isr4k-ios-xe-embedded-packet-capture"
+       - name: WCCP configuration on Cisco routers and WAAS
+         ref: "/2016/2016-05-14-wccp-configuration-on-cisco-routers-waas"
+       - name: Introduction to Akamai Connect
+         ref: "/2016/2016-05-26-introduction-to-akamai-connect"
+       - name: Hardware Cisco UCS-E module
+         ref: "/2016/2016-07-04-hardware-cisco-ucs-e-module"
+       - name: Fortigate High Availability FGCP
+         ref: "/2016/2016-07-06-fortigate-high-availability-fgcp"
+       - name: Anycast RP PIM
+         ref: "/2016/2016-08-04-anycast-rp-pim"
+       - name: RADIUS configuration on Cisco
+         ref: "/2016/2016-08-26-radius-configuration-on-cisco"
+       - name: Fortigate flow troubleshooting tools
+         ref: "/2016/2016-09-03-fortigate-flow-troubleshooting-tools"
+   - name: 2015
+     ref: "/2015"
+     sub:
+       - name: BGP multipath with both e/i BGP
+         ref: "/2015/2015-10-08-bgp-multipath-with-both-ei-bgp"
+       - name: DMVPN IPSec and QoS implementation
+         ref: "/2015/2015-10-22-dmvpn-ipsec-and-qos-implementation"
+       - name: DMVPN Phase 1 Hub and Spoke
+         ref: "/2015/2015-10-22-dmvpn-phase-1"
+       - name: DMVPN Phase 2 Spoke to spoke capability
+         ref: "/2015/2015-10-22-dmvpn-phase-2-spoke-to-spoke-capability"
+       - name: DMVPN Phase 3 network optimization
+         ref: "/2015/2015-10-22-dmvpn-phase-3-network-optimization"
+       - name: Front Door VRF for tunnels
+         ref: "/2015/2015-11-07-front-door-vrf-for-tunnels"
+       - name: JunOS IS-IS routing (Intermediate System to Intermediate System)
+         ref: "/2015/2015-11-08-junos-is-is-routing-intermediate-system-to-intermediate-system"
+       - name: JunOS IS-IS internal and external route leaking
+         ref: "/2015/2015-11-16-junos-is-is-internal-and-external-route-leaking"
+       - name: Cisco 4500-X downgrade/upgrade procedure
+         ref: "/2015/2015-12-27-cisco-4500-x-downgradeupgrade-procedure"
+       - name: WAAS and vCM setup
+         ref: "/2015/2015-12-27-waas-and-vcm-setup"
+   - name: 2014
+     ref: "/2014"
+     sub:
+       - name: Simple Cisco Zone Based Firewall Lab
+         ref: "/2014/2014-02-02-simple-cisco-zone-based-firewall-lab"
+   - name: 2013
+     ref: "/2013"
+     sub:
+       - name: Simple BGP configuration on JunOS
+         ref: "/2013/2013-01-08-simple-bgp-configuration-on-junos"
+       - name: HP Intelligent Resilient Framework
+         ref: "/2013/2013-01-16-hp-intelligent-resilient-framework"
+       - name: Intel Modular Server - Ethernet Switch explained
+         ref: "/2013/2013-01-20-intel-modular-server-ethernet-switch-explained"
+       - name: Introduction to Policy Based Routing
+         ref: "/2013/2013-01-26-introduction-to-policy-based-routing"
+       - name: Linux Workshop #1 Linux Introduction
+         ref: "/2013/2013-02-15-thursday-evening-class-linux-introduction"
+       - name: Linux Workshop #2 The Linux firewall
+         ref: "/2013/2013-02-15-thursday-evening-class-the-linux-firewall"
+       - name: Security Workshop #1 Layer 2 Security Part. 1
+         ref: "/2013/2013-02-18-thursday-evening-class-layer-2-security-part-1"
+       - name: Cisco MPLS L3VPN lab
+         ref: "/2013/2013-02-25-cisco-mpls-l3vpn-lab"
+       - name: Cisco MPLS lab
+         ref: "/2013/2013-02-25-cisco-mpls-lab"
+       - name: IOS Embedded Packet Capture - An useful troubleshooting tool
+         ref: "/2013/2013-03-03-ios-embedded-packet-capture-an-useful-troubleshooting-tool"
+       - name: Wildcard masks, once and for all !
+         ref: "/2013/2013-03-03-wildcard-masks-once-and-for-all"
+       - name: SW_MATM-4-MACFLAP_NOTIF
+         ref: "/2013/2013-03-09-sw_matm-4-macflap_notif"
+       - name: IPv6 transition and MPLS 6VPE lab
+         ref: "/2013/2013-03-11-ipv6-transition-mpls-6vpe-lab"
+       - name: BGP man in the middle (Kapela & Pilosov)
+         ref: "/2013/2013-03-13-bgp-man-in-the-middle-kapela-pilosov"
+       - name: BGP Route reflectors redundancy
+         ref: "/2013/2013-03-24-bgp-route-reflectors-redundancy"
+       - name: Microsoft Windows Server licensing scared me again
+         ref: "/2013/2013-03-30-microsoft-windows-server-licensing-scared-me-again"
+       - name: Challenge pkt300 - DEFCON 16 explained
+         ref: "/2013/2013-05-05-challenge-pkt300-defcon-16-explained"
+       - name: BGP - Prevent being a transit AS
+         ref: "/2013/2013-07-20-bgp-prevent-being-a-transit-as"
+       - name: Tip Filtering debug output with an ACL
+         ref: "/2013/2013-07-20-tip-filtering-debug-output-with-an-acl"
+       - name: HSRP, Stateful NAT and BGP Default route advertisement
+         ref: "/2013/2013-07-21-hsrp-stateful-nat-and-bgp-default-route-advertisement"
+       - name: Route manipulation EIGRP distribute lists
+         ref: "/2013/2013-08-24-route-manipulation-eigrp-distribute-lists"
+       - name: Route manipulation OSPF inter-area filtering with filter lists
+         ref: "/2013/2013-11-17-route-manipulation-ospf-inter-area-filtering-with-filter-lists"
+       - name: PPPoE example
+         ref: "/2013/2013-12-20-pppoe-example"
+       - name: Time based ACLs
+         ref: "/2013/2013-12-20-time-based-acls"
+   - name: 2012
+     ref: "/2012"
+     sub:
+       - name: Defending IP-based industrial environments
+         ref: "/2012/2012-10-07-defending-ip-based-industrial-environments"
+       - name: MHSRP and MSTP lab
+         ref: "/2012/2012-10-11-mhsrp-mstp-lab"
+       - name: Fun with CARP  firewalls redundancy
+         ref: "/2012/2012-10-24-fun-with-carp-firewalls-redundancy"
+       - name: Network Time Protocol Lab
+         ref: "/2012/2012-11-11-ntp-lab"
+       - name: Routed design and MLS at the access layer
+         ref: "/2012/2012-12-28-routed-design-and-mls-at-the-access-layer"
