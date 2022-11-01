@@ -7,3 +7,5 @@ draft: false
 Welcome to my documentation system. You'll find below some of my technical notes and interesting resources.
 
 FYI, old stuff might be outdated now or inacurate, knowledge and experience increasing over time...
+
+Go back to [homepage](https://www.pbe9216.net/)
